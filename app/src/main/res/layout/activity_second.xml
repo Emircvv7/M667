@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    tools:context=".SecondActivity">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/rounded_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="34dp">
+
+<com.google.android.material.button.MaterialButton
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:text="Category"
+    android:textSize="8dp"
+    android:layout_marginTop="9dp"
+    android:layout_centerHorizontal="true"
+    android:backgroundTint="@color/red"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Explore the nightife of your city "
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="65dp"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="NEXT"
+        android:backgroundTint="@color/blue"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
